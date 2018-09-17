@@ -47,11 +47,29 @@
      <x>0</x>
      <y>0</y>
      <width>817</width>
-     <height>23</height>
+     <height>28</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>登陆</string>
+    </property>
+    <addaction name="action"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>帮助</string>
+    </property>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <action name="action">
+   <property name="text">
+    <string>登陆</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>

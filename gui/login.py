@@ -20,6 +20,7 @@ class MyLogin(QMainWindow,  Ui_LoginWindow):
         a = self.LoginAccount.text()
         b = self.LoginPassword.text()
         if int(a) == config.a1 & int(b) == config.b2:
+			#留给验证登陆方法
             MainWin.show()
             myWin.close()
         else:
@@ -33,6 +34,5 @@ class MyLogin(QMainWindow,  Ui_LoginWindow):
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     myWin = MyLogin()
-    MainWin = CallMainWindow()
     myWin.show()
     sys.exit(app.exec_())

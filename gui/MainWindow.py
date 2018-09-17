@@ -1,9 +1,9 @@
 import sys
 from PyQt5.QtWidgets import * 
 from PyQt5.QtGui import *
-
 from Ui_MainWindow import *
 from WeekTable import  *
+from login import *
 
 class CallMainWindow(QMainWindow, Ui_Main_Window):
 	def __init__(self, parent = None):
@@ -11,9 +11,14 @@ class CallMainWindow(QMainWindow, Ui_Main_Window):
 		self.setupUi(self)
 		self.dayTable.setText("日课程表")
 		self.dayTable.clicked.connect(self.ShowDayTable)
+		self.menu.triggered[QAction].connect(self.Login)
         
 	def ShowDayTable(self):
-		table.show() 
+		DayTable.show()
+		
+	def Login(self):
+		LoginWin.show()
+
         
 class Table(QWidget):
     
@@ -36,7 +41,8 @@ class Table(QWidget):
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    table = WeekTable()
     mainWin = CallMainWindow()
     mainWin.show()
+    DayTable = WeekTable()
+    LoginWin = MyLogin()
     sys.exit(app.exec_())
