@@ -3,11 +3,18 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 
 from Ui_MainWindow import *
+from WeekTable import  *
 
 class CallMainWindow(QMainWindow, Ui_Main_Window):
 	def __init__(self, parent = None):
 		super(CallMainWindow, self).__init__(parent)
 		self.setupUi(self)
+		self.dayTable.setText("日课程表")
+		self.dayTable.clicked.connect(self.ShowDayTable)
+        
+	def ShowDayTable(self):
+		table.show() 
+        
 class Table(QWidget):
     
     def __init__(self,  arg = None):
@@ -24,10 +31,12 @@ class Table(QWidget):
         dlgLayout.addWidget(self.tableView)
         self.setLayout(dlgLayout)
 
+
+
+
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    table = Table()
-    table.show()
+    table = WeekTable()
     mainWin = CallMainWindow()
     mainWin.show()
     sys.exit(app.exec_())

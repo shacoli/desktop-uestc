@@ -1,9 +1,10 @@
 import sys
 import config
-#from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import *
 from Ui_login import *
 from MainWindow import *
+#from PyQt5 import QtCore, QtGui, QtWidgets
+
 
 class MyLogin(QMainWindow,  Ui_LoginWindow):
     def __init__(self,  parent=None):
