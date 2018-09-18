@@ -3,7 +3,7 @@ import config
 from PyQt5.QtWidgets import *
 from Ui_login import *
 from MainWindow import *
-sys.path.append("/home/shacoli/open-project/desktop-uestc")
+sys.path.append("..")
 from funcs.login_test import *
 #from PyQt5 import QtCore, QtGui, QtWidgets
 

@@ -7,6 +7,7 @@
 # WARNING! All changes made in this file will be lost!
 
 from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtCore import QDate
 
 class Ui_WeekTable(object):
     def setupUi(self, WeekTable):
@@ -263,16 +264,19 @@ class Ui_WeekTable(object):
         self.label_2.setObjectName("label_2")
         self.verticalLayout.addWidget(self.label_2)
         self.scrollArea.setWidget(self.scrollAreaWidgetContents)
+        self.pushButton_15 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_15.setGeometry(QtCore.QRect(40, 820, 271, 25))
+        self.pushButton_15.setObjectName("pushButton_15")
         self.widget1 = QtWidgets.QWidget(self.centralwidget)
-        self.widget1.setGeometry(QtCore.QRect(120, 60, 186, 28))
+        self.widget1.setGeometry(QtCore.QRect(40, 60, 199, 33))
         self.widget1.setObjectName("widget1")
         self.horizontalLayout = QtWidgets.QHBoxLayout(self.widget1)
         self.horizontalLayout.setContentsMargins(0, 0, 0, 0)
         self.horizontalLayout.setObjectName("horizontalLayout")
-        self.dateLabel = QtWidgets.QLabel(self.widget1)
-        self.dateLabel.setObjectName("dateLabel")
-        self.horizontalLayout.addWidget(self.dateLabel)
-        self.dateEdit = QtWidgets.QDateEdit(self.widget1)
+        self.switch_button = QtWidgets.QPushButton(self.widget1)
+        self.switch_button.setObjectName("switch_button")
+        self.horizontalLayout.addWidget(self.switch_button)
+        self.dateEdit = QtWidgets.QDateEdit(QDate.currentDate(), self.widget1)
         self.dateEdit.setObjectName("dateEdit")
         self.horizontalLayout.addWidget(self.dateEdit)
         WeekTable.setCentralWidget(self.centralwidget)
@@ -333,7 +337,8 @@ class Ui_WeekTable(object):
         self.label_26.setText(_translate("WeekTable", "TextLabel"))
         self.label.setText(_translate("WeekTable", "TextLabel"))
         self.label_2.setText(_translate("WeekTable", "TextLabel"))
-        self.dateLabel.setText(_translate("WeekTable", "选择日期"))
+        self.pushButton_15.setText(_translate("WeekTable", "课标有误？点击以重新爬取"))
+        self.switch_button.setText(_translate("WeekTable", "跳转至"))
         self.menu.setTitle(_translate("WeekTable", "文件"))
 
 
