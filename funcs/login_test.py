@@ -1,6 +1,7 @@
 import requests
 import re
 import time
+from bs4 import BeautifulSoup
 
 c = time.time()
 
@@ -23,8 +24,12 @@ def login_test(account, password):
             }
     session.post("http://idas.uestc.edu.cn/authserver/login?service=http://portal.uestc.edu.cn/index.portal",data=postdata)
     a = session.get("http://eams.uestc.edu.cn/eams/home.action")
-
-    #print(a)#<Response [200]>
-    session.get("http://eams.uestc.edu.cn/eams/logout.action?jsdEkingstar=1&redirect=http%3A%2F%2Fportal.uestc.edu.cn%2Flogout.portal")
-    return 0
+    print(a.text)
+    b = session.get("http://eams.uestc.edu.cn/eams/courseTableForStd.action")
+    print(b.text)
+    if a.text[-20:] == b.text[-20:]:
+        return False
+    else:
+        session.get("http://eams.uestc.edu.cn/eams/logout.action?jsdEkingstar=1&redirect=http%3A%2F%2Fportal.uestc.edu.cn%2Flogout.portal")
+        return True
 

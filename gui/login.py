@@ -3,7 +3,8 @@ import config
 from PyQt5.QtWidgets import *
 from Ui_login import *
 from MainWindow import *
-from funcs import table_scrapy
+sys.path.append("/home/shacoli/open-project/desktop-uestc")
+from funcs.login_test import *
 #from PyQt5 import QtCore, QtGui, QtWidgets
 
 
@@ -13,19 +14,18 @@ class MyLogin(QMainWindow,  Ui_LoginWindow):
         self.setupUi(self)
         
         
-        
         self.loginButton.clicked.connect(self.Login)
         self.touristButton.clicked.connect(self.TourLogin)
         
     def Login(self):
         a = self.LoginAccount.text()
         b = self.LoginPassword.text()
-        if int(a) == config.a1 & int(b) == config.b2:
-            table_scrapy.login_test(a, b)
-            #MainWin.show()
-            myWin.close()
+        if(login_test(a, b) == True):
+            print("登陆成功！！")
         else:
             pass
+        #MainWin.show()
+        myWin.close()
             
     def TourLogin(self):
         #MainWin.show()
