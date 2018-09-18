@@ -3,6 +3,7 @@ import config
 from PyQt5.QtWidgets import *
 from Ui_login import *
 from MainWindow import *
+from funcs import table_scrapy
 #from PyQt5 import QtCore, QtGui, QtWidgets
 
 
@@ -20,14 +21,14 @@ class MyLogin(QMainWindow,  Ui_LoginWindow):
         a = self.LoginAccount.text()
         b = self.LoginPassword.text()
         if int(a) == config.a1 & int(b) == config.b2:
-			#留给验证登陆方法
-            MainWin.show()
+            table_scrapy.login_test(a, b)
+            #MainWin.show()
             myWin.close()
         else:
             pass
             
     def TourLogin(self):
-        MainWin.show()
+        #MainWin.show()
         myWin.close()
             
         

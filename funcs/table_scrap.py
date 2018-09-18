@@ -54,7 +54,7 @@ def Search_The_Table(account, password):
     ids=(((re.search(r'("[0-9]{6}")',search_for_ids.text)[0]).split("\"")))[1]
     data1={ 'ignoreHead':1,
         'setting.kind':'std', #同样 有班级课表
-        'startWeek':1,
+        'startWeek':1, #+1
         'semester.id':203,  #将来要改 每个时间段不同
         'ids': ids}
     course=session.post("http://eams.uestc.edu.cn/eams/courseTableForStd!courseTable.action",data=data1).text

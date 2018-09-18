@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>324</width>
+    <width>319</width>
     <height>911</height>
    </rect>
   </property>
@@ -17,8 +17,8 @@
    <widget class="QScrollArea" name="scrollArea">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>80</y>
+      <x>40</x>
+      <y>90</y>
       <width>271</width>
       <height>731</height>
      </rect>
@@ -26,7 +26,7 @@
     <property name="minimumSize">
      <size>
       <width>200</width>
-      <height>400</height>
+      <height>600</height>
      </size>
     </property>
     <property name="verticalScrollBarPolicy">
@@ -43,7 +43,7 @@
       <rect>
        <x>0</x>
        <y>0</y>
-       <width>252</width>
+       <width>255</width>
        <height>1200</height>
       </rect>
      </property>
@@ -53,22 +53,47 @@
        <height>1200</height>
       </size>
      </property>
-     <widget class="QWidget" name="layoutWidget">
+     <widget class="QPushButton" name="pushButton_14">
       <property name="geometry">
        <rect>
-        <x>10</x>
-        <y>70</y>
-        <width>56</width>
-        <height>51</height>
+        <x>210</x>
+        <y>1200</y>
+        <width>31</width>
+        <height>31</height>
        </rect>
       </property>
-      <layout class="QVBoxLayout" name="verticalLayout_2"/>
+      <property name="text">
+       <string>+</string>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="textBrowser">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>10</y>
+        <width>131</width>
+        <height>81</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>30</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>+</string>
+      </property>
      </widget>
      <widget class="QPushButton" name="pushButton_2">
       <property name="geometry">
        <rect>
-        <x>210</x>
-        <y>80</y>
+        <x>220</x>
+        <y>120</y>
         <width>31</width>
         <height>31</height>
        </rect>
@@ -80,29 +105,44 @@
      <widget class="QTextBrowser" name="textBrowser_2">
       <property name="geometry">
        <rect>
-        <x>70</x>
-        <y>60</y>
+        <x>80</x>
+        <y>100</y>
         <width>131</width>
-        <height>71</height>
+        <height>81</height>
        </rect>
       </property>
      </widget>
-     <widget class="QWidget" name="layoutWidget_2">
+     <widget class="QWidget" name="layoutWidget">
       <property name="geometry">
        <rect>
-        <x>10</x>
-        <y>150</y>
-        <width>56</width>
-        <height>51</height>
+        <x>0</x>
+        <y>120</y>
+        <width>69</width>
+        <height>42</height>
        </rect>
       </property>
-      <layout class="QVBoxLayout" name="verticalLayout_3"/>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
      </widget>
      <widget class="QPushButton" name="pushButton_3">
       <property name="geometry">
        <rect>
-        <x>210</x>
-        <y>160</y>
+        <x>220</x>
+        <y>210</y>
         <width>31</width>
         <height>31</height>
        </rect>
@@ -114,20 +154,69 @@
      <widget class="QTextBrowser" name="textBrowser_3">
       <property name="geometry">
        <rect>
-        <x>70</x>
-        <y>140</y>
+        <x>80</x>
+        <y>190</y>
         <width>131</width>
-        <height>71</height>
+        <height>81</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>210</y>
+        <width>69</width>
+        <height>42</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QLabel" name="label_5">
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_6">
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>300</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>+</string>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="textBrowser_4">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>280</y>
+        <width>131</width>
+        <height>81</height>
        </rect>
       </property>
      </widget>
      <widget class="QWidget" name="layoutWidget_3">
       <property name="geometry">
        <rect>
-        <x>10</x>
-        <y>230</y>
-        <width>56</width>
-        <height>51</height>
+        <x>0</x>
+        <y>300</y>
+        <width>69</width>
+        <height>42</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_4">
@@ -147,11 +236,11 @@
        </item>
       </layout>
      </widget>
-     <widget class="QPushButton" name="pushButton_4">
+     <widget class="QPushButton" name="pushButton_5">
       <property name="geometry">
        <rect>
-        <x>210</x>
-        <y>240</y>
+        <x>220</x>
+        <y>390</y>
         <width>31</width>
         <height>31</height>
        </rect>
@@ -160,23 +249,23 @@
        <string>+</string>
       </property>
      </widget>
-     <widget class="QTextBrowser" name="textBrowser_4">
+     <widget class="QTextBrowser" name="textBrowser_5">
       <property name="geometry">
        <rect>
-        <x>70</x>
-        <y>220</y>
+        <x>80</x>
+        <y>370</y>
         <width>131</width>
-        <height>71</height>
+        <height>81</height>
        </rect>
       </property>
      </widget>
      <widget class="QWidget" name="layoutWidget_4">
       <property name="geometry">
        <rect>
-        <x>10</x>
-        <y>310</y>
-        <width>56</width>
-        <height>51</height>
+        <x>0</x>
+        <y>390</y>
+        <width>69</width>
+        <height>42</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_5">
@@ -196,11 +285,11 @@
        </item>
       </layout>
      </widget>
-     <widget class="QPushButton" name="pushButton_5">
+     <widget class="QPushButton" name="pushButton_6">
       <property name="geometry">
        <rect>
-        <x>210</x>
-        <y>320</y>
+        <x>220</x>
+        <y>480</y>
         <width>31</width>
         <height>31</height>
        </rect>
@@ -209,23 +298,23 @@
        <string>+</string>
       </property>
      </widget>
-     <widget class="QTextBrowser" name="textBrowser_5">
+     <widget class="QTextBrowser" name="textBrowser_6">
       <property name="geometry">
        <rect>
-        <x>70</x>
-        <y>300</y>
+        <x>80</x>
+        <y>460</y>
         <width>131</width>
-        <height>71</height>
+        <height>81</height>
        </rect>
       </property>
      </widget>
      <widget class="QWidget" name="layoutWidget_5">
       <property name="geometry">
        <rect>
-        <x>10</x>
-        <y>390</y>
-        <width>56</width>
-        <height>51</height>
+        <x>0</x>
+        <y>480</y>
+        <width>69</width>
+        <height>42</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_6">
@@ -245,11 +334,11 @@
        </item>
       </layout>
      </widget>
-     <widget class="QPushButton" name="pushButton_6">
+     <widget class="QPushButton" name="pushButton_7">
       <property name="geometry">
        <rect>
-        <x>210</x>
-        <y>400</y>
+        <x>220</x>
+        <y>570</y>
         <width>31</width>
         <height>31</height>
        </rect>
@@ -258,23 +347,23 @@
        <string>+</string>
       </property>
      </widget>
-     <widget class="QTextBrowser" name="textBrowser_6">
+     <widget class="QTextBrowser" name="textBrowser_7">
       <property name="geometry">
        <rect>
-        <x>70</x>
-        <y>380</y>
+        <x>80</x>
+        <y>550</y>
         <width>131</width>
-        <height>71</height>
+        <height>81</height>
        </rect>
       </property>
      </widget>
      <widget class="QWidget" name="layoutWidget_6">
       <property name="geometry">
        <rect>
-        <x>10</x>
-        <y>470</y>
-        <width>56</width>
-        <height>51</height>
+        <x>0</x>
+        <y>570</y>
+        <width>69</width>
+        <height>42</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_7">
@@ -294,11 +383,11 @@
        </item>
       </layout>
      </widget>
-     <widget class="QPushButton" name="pushButton_7">
+     <widget class="QPushButton" name="pushButton_8">
       <property name="geometry">
        <rect>
-        <x>210</x>
-        <y>480</y>
+        <x>220</x>
+        <y>660</y>
         <width>31</width>
         <height>31</height>
        </rect>
@@ -307,23 +396,23 @@
        <string>+</string>
       </property>
      </widget>
-     <widget class="QTextBrowser" name="textBrowser_7">
+     <widget class="QTextBrowser" name="textBrowser_8">
       <property name="geometry">
        <rect>
-        <x>70</x>
-        <y>460</y>
+        <x>80</x>
+        <y>640</y>
         <width>131</width>
-        <height>71</height>
+        <height>81</height>
        </rect>
       </property>
      </widget>
      <widget class="QWidget" name="layoutWidget_7">
       <property name="geometry">
        <rect>
-        <x>10</x>
-        <y>550</y>
-        <width>56</width>
-        <height>51</height>
+        <x>0</x>
+        <y>660</y>
+        <width>69</width>
+        <height>42</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_8">
@@ -343,11 +432,11 @@
        </item>
       </layout>
      </widget>
-     <widget class="QPushButton" name="pushButton_8">
+     <widget class="QPushButton" name="pushButton_9">
       <property name="geometry">
        <rect>
-        <x>210</x>
-        <y>560</y>
+        <x>220</x>
+        <y>750</y>
         <width>31</width>
         <height>31</height>
        </rect>
@@ -356,23 +445,23 @@
        <string>+</string>
       </property>
      </widget>
-     <widget class="QTextBrowser" name="textBrowser_8">
+     <widget class="QTextBrowser" name="textBrowser_9">
       <property name="geometry">
        <rect>
-        <x>70</x>
-        <y>540</y>
+        <x>80</x>
+        <y>730</y>
         <width>131</width>
-        <height>71</height>
+        <height>81</height>
        </rect>
       </property>
      </widget>
      <widget class="QWidget" name="layoutWidget_8">
       <property name="geometry">
        <rect>
-        <x>10</x>
-        <y>630</y>
-        <width>56</width>
-        <height>51</height>
+        <x>0</x>
+        <y>750</y>
+        <width>69</width>
+        <height>42</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_9">
@@ -392,11 +481,11 @@
        </item>
       </layout>
      </widget>
-     <widget class="QPushButton" name="pushButton_9">
+     <widget class="QPushButton" name="pushButton_10">
       <property name="geometry">
        <rect>
-        <x>210</x>
-        <y>640</y>
+        <x>220</x>
+        <y>840</y>
         <width>31</width>
         <height>31</height>
        </rect>
@@ -405,23 +494,23 @@
        <string>+</string>
       </property>
      </widget>
-     <widget class="QTextBrowser" name="textBrowser_9">
+     <widget class="QTextBrowser" name="textBrowser_10">
       <property name="geometry">
        <rect>
-        <x>70</x>
-        <y>620</y>
+        <x>80</x>
+        <y>820</y>
         <width>131</width>
-        <height>71</height>
+        <height>81</height>
        </rect>
       </property>
      </widget>
      <widget class="QWidget" name="layoutWidget_9">
       <property name="geometry">
        <rect>
-        <x>10</x>
-        <y>710</y>
-        <width>56</width>
-        <height>51</height>
+        <x>0</x>
+        <y>840</y>
+        <width>69</width>
+        <height>42</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_10">
@@ -441,11 +530,11 @@
        </item>
       </layout>
      </widget>
-     <widget class="QPushButton" name="pushButton_10">
+     <widget class="QPushButton" name="pushButton_11">
       <property name="geometry">
        <rect>
-        <x>210</x>
-        <y>720</y>
+        <x>220</x>
+        <y>930</y>
         <width>31</width>
         <height>31</height>
        </rect>
@@ -454,23 +543,23 @@
        <string>+</string>
       </property>
      </widget>
-     <widget class="QTextBrowser" name="textBrowser_10">
+     <widget class="QTextBrowser" name="textBrowser_11">
       <property name="geometry">
        <rect>
-        <x>70</x>
-        <y>700</y>
+        <x>80</x>
+        <y>910</y>
         <width>131</width>
-        <height>71</height>
+        <height>81</height>
        </rect>
       </property>
      </widget>
      <widget class="QWidget" name="layoutWidget_10">
       <property name="geometry">
        <rect>
-        <x>10</x>
-        <y>790</y>
-        <width>56</width>
-        <height>51</height>
+        <x>0</x>
+        <y>930</y>
+        <width>69</width>
+        <height>42</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_11">
@@ -490,11 +579,11 @@
        </item>
       </layout>
      </widget>
-     <widget class="QPushButton" name="pushButton_11">
+     <widget class="QPushButton" name="pushButton_12">
       <property name="geometry">
        <rect>
-        <x>210</x>
-        <y>800</y>
+        <x>220</x>
+        <y>1020</y>
         <width>31</width>
         <height>31</height>
        </rect>
@@ -503,23 +592,23 @@
        <string>+</string>
       </property>
      </widget>
-     <widget class="QTextBrowser" name="textBrowser_11">
+     <widget class="QTextBrowser" name="textBrowser_12">
       <property name="geometry">
        <rect>
-        <x>70</x>
-        <y>780</y>
+        <x>80</x>
+        <y>1000</y>
         <width>131</width>
-        <height>71</height>
+        <height>81</height>
        </rect>
       </property>
      </widget>
      <widget class="QWidget" name="layoutWidget_11">
       <property name="geometry">
        <rect>
-        <x>10</x>
-        <y>870</y>
-        <width>56</width>
-        <height>51</height>
+        <x>0</x>
+        <y>1020</y>
+        <width>69</width>
+        <height>42</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_12">
@@ -539,11 +628,11 @@
        </item>
       </layout>
      </widget>
-     <widget class="QPushButton" name="pushButton_12">
+     <widget class="QPushButton" name="pushButton_13">
       <property name="geometry">
        <rect>
-        <x>210</x>
-        <y>880</y>
+        <x>220</x>
+        <y>1110</y>
         <width>31</width>
         <height>31</height>
        </rect>
@@ -552,23 +641,23 @@
        <string>+</string>
       </property>
      </widget>
-     <widget class="QTextBrowser" name="textBrowser_12">
+     <widget class="QTextBrowser" name="textBrowser_13">
       <property name="geometry">
        <rect>
-        <x>70</x>
-        <y>860</y>
+        <x>80</x>
+        <y>1090</y>
         <width>131</width>
-        <height>71</height>
+        <height>81</height>
        </rect>
       </property>
      </widget>
      <widget class="QWidget" name="layoutWidget_12">
       <property name="geometry">
        <rect>
-        <x>10</x>
-        <y>950</y>
-        <width>56</width>
-        <height>51</height>
+        <x>0</x>
+        <y>1110</y>
+        <width>69</width>
+        <height>42</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_13">
@@ -588,48 +677,25 @@
        </item>
       </layout>
      </widget>
-     <widget class="QPushButton" name="pushButton_13">
+     <widget class="QWidget" name="">
       <property name="geometry">
        <rect>
-        <x>210</x>
-        <y>960</y>
-        <width>31</width>
-        <height>31</height>
+        <x>0</x>
+        <y>30</y>
+        <width>69</width>
+        <height>42</height>
        </rect>
       </property>
-      <property name="text">
-       <string>+</string>
-      </property>
-     </widget>
-     <widget class="QTextBrowser" name="textBrowser_13">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>940</y>
-        <width>131</width>
-        <height>71</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QWidget" name="layoutWidget_13">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>1030</y>
-        <width>56</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <layout class="QVBoxLayout" name="verticalLayout_14">
+      <layout class="QVBoxLayout" name="verticalLayout">
        <item>
-        <widget class="QLabel" name="label_27">
+        <widget class="QLabel" name="label">
          <property name="text">
           <string>TextLabel</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="label_28">
+        <widget class="QLabel" name="label_2">
          <property name="text">
           <string>TextLabel</string>
          </property>
@@ -637,168 +703,27 @@
        </item>
       </layout>
      </widget>
-     <widget class="QPushButton" name="pushButton_14">
-      <property name="geometry">
-       <rect>
-        <x>210</x>
-        <y>1040</y>
-        <width>31</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>+</string>
-      </property>
-     </widget>
-     <widget class="QTextBrowser" name="textBrowser_14">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>1020</y>
-        <width>131</width>
-        <height>71</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_4">
-      <property name="geometry">
-       <rect>
-        <x>11</x>
-        <y>99</y>
-        <width>54</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>TextLabel</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_3">
-      <property name="geometry">
-       <rect>
-        <x>11</x>
-        <y>71</y>
-        <width>54</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>TextLabel</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_6">
-      <property name="geometry">
-       <rect>
-        <x>11</x>
-        <y>179</y>
-        <width>54</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>TextLabel</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_5">
-      <property name="geometry">
-       <rect>
-        <x>11</x>
-        <y>151</y>
-        <width>54</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>TextLabel</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label">
-      <property name="geometry">
-       <rect>
-        <x>40</x>
-        <y>20</y>
-        <width>191</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>您现在查看的是x年x月x日的课表</string>
-      </property>
-     </widget>
     </widget>
    </widget>
-   <widget class="QWidget" name="layoutWidget_14">
+   <widget class="QWidget" name="">
     <property name="geometry">
      <rect>
-      <x>90</x>
+      <x>120</x>
       <y>60</y>
-      <width>72</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <layout class="QHBoxLayout" name="horizontalLayout_2">
-     <item>
-      <widget class="QLabel" name="label_30">
-       <property name="text">
-        <string>学期</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QSpinBox" name="spinBox_2"/>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QWidget" name="layoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>160</x>
-      <y>60</y>
-      <width>72</width>
-      <height>22</height>
+      <width>186</width>
+      <height>28</height>
      </rect>
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout">
      <item>
-      <widget class="QLabel" name="label_29">
+      <widget class="QLabel" name="dateLabel">
        <property name="text">
-        <string>周数</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        <string>选择日期</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QSpinBox" name="spinBox"/>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QWidget" name="layoutWidget_15">
-    <property name="geometry">
-     <rect>
-      <x>230</x>
-      <y>60</y>
-      <width>72</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <layout class="QHBoxLayout" name="horizontalLayout_3">
-     <item>
-      <widget class="QLabel" name="label_31">
-       <property name="text">
-        <string>天数</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QSpinBox" name="spinBox_3"/>
+      <widget class="QDateEdit" name="dateEdit"/>
      </item>
     </layout>
    </widget>
@@ -808,8 +733,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>324</width>
-     <height>23</height>
+     <width>319</width>
+     <height>28</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu">
