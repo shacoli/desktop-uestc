@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>363</width>
+    <width>362</width>
     <height>911</height>
    </rect>
   </property>
@@ -107,7 +107,7 @@
           <property name="geometry">
            <rect>
             <x>0</x>
-            <y>0</y>
+            <y>-337</y>
             <width>321</width>
             <height>1600</height>
            </rect>
@@ -135,12 +135,18 @@
                 <property name="text">
                  <string>TextLabel</string>
                 </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
                </widget>
               </item>
               <item>
                <widget class="QLabel" name="label12">
                 <property name="text">
                  <string>TextLabel</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
                 </property>
                </widget>
               </item>
@@ -149,7 +155,14 @@
             <item>
              <layout class="QVBoxLayout" name="verticalLayout_5">
               <item>
-               <widget class="QTextBrowser" name="textBrowser"/>
+               <widget class="QTextBrowser" name="textBrowser">
+                <property name="maximumSize">
+                 <size>
+                  <width>174</width>
+                  <height>70</height>
+                 </size>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -189,12 +202,18 @@
                 <property name="text">
                  <string>TextLabel</string>
                 </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
                </widget>
               </item>
               <item>
                <widget class="QLabel" name="label22">
                 <property name="text">
                  <string>TextLabel</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
                 </property>
                </widget>
               </item>
@@ -203,7 +222,14 @@
             <item>
              <layout class="QVBoxLayout" name="verticalLayout_7">
               <item>
-               <widget class="QTextBrowser" name="textBrowser_2"/>
+               <widget class="QTextBrowser" name="textBrowser_2">
+                <property name="maximumSize">
+                 <size>
+                  <width>174</width>
+                  <height>70</height>
+                 </size>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -243,12 +269,18 @@
                 <property name="text">
                  <string>TextLabel</string>
                 </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
                </widget>
               </item>
               <item>
                <widget class="QLabel" name="label32">
                 <property name="text">
                  <string>TextLabel</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
                 </property>
                </widget>
               </item>
@@ -257,7 +289,14 @@
             <item>
              <layout class="QVBoxLayout" name="verticalLayout_9">
               <item>
-               <widget class="QTextBrowser" name="textBrowser_3"/>
+               <widget class="QTextBrowser" name="textBrowser_3">
+                <property name="maximumSize">
+                 <size>
+                  <width>174</width>
+                  <height>70</height>
+                 </size>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -297,12 +336,18 @@
                 <property name="text">
                  <string>TextLabel</string>
                 </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
                </widget>
               </item>
               <item>
                <widget class="QLabel" name="label42">
                 <property name="text">
                  <string>TextLabel</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
                 </property>
                </widget>
               </item>
@@ -311,7 +356,14 @@
             <item>
              <layout class="QVBoxLayout" name="verticalLayout_11">
               <item>
-               <widget class="QTextBrowser" name="textBrowser_4"/>
+               <widget class="QTextBrowser" name="textBrowser_4">
+                <property name="maximumSize">
+                 <size>
+                  <width>174</width>
+                  <height>70</height>
+                 </size>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -351,12 +403,18 @@
                 <property name="text">
                  <string>TextLabel</string>
                 </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
                </widget>
               </item>
               <item>
                <widget class="QLabel" name="label52">
                 <property name="text">
                  <string>TextLabel</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
                 </property>
                </widget>
               </item>
@@ -365,7 +423,14 @@
             <item>
              <layout class="QVBoxLayout" name="verticalLayout_13">
               <item>
-               <widget class="QTextBrowser" name="textBrowser_5"/>
+               <widget class="QTextBrowser" name="textBrowser_5">
+                <property name="maximumSize">
+                 <size>
+                  <width>174</width>
+                  <height>70</height>
+                 </size>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -405,12 +470,18 @@
                 <property name="text">
                  <string>TextLabel</string>
                 </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
                </widget>
               </item>
               <item>
                <widget class="QLabel" name="label62">
                 <property name="text">
                  <string>TextLabel</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
                 </property>
                </widget>
               </item>
@@ -419,7 +490,14 @@
             <item>
              <layout class="QVBoxLayout" name="verticalLayout_15">
               <item>
-               <widget class="QTextBrowser" name="textBrowser_6"/>
+               <widget class="QTextBrowser" name="textBrowser_6">
+                <property name="maximumSize">
+                 <size>
+                  <width>174</width>
+                  <height>70</height>
+                 </size>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -459,12 +537,18 @@
                 <property name="text">
                  <string>TextLabel</string>
                 </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
                </widget>
               </item>
               <item>
                <widget class="QLabel" name="label72">
                 <property name="text">
                  <string>TextLabel</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
                 </property>
                </widget>
               </item>
@@ -473,7 +557,14 @@
             <item>
              <layout class="QVBoxLayout" name="verticalLayout_17">
               <item>
-               <widget class="QTextBrowser" name="textBrowser_7"/>
+               <widget class="QTextBrowser" name="textBrowser_7">
+                <property name="maximumSize">
+                 <size>
+                  <width>174</width>
+                  <height>70</height>
+                 </size>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -513,12 +604,18 @@
                 <property name="text">
                  <string>TextLabel</string>
                 </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
                </widget>
               </item>
               <item>
                <widget class="QLabel" name="label82">
                 <property name="text">
                  <string>TextLabel</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
                 </property>
                </widget>
               </item>
@@ -527,7 +624,14 @@
             <item>
              <layout class="QVBoxLayout" name="verticalLayout_19">
               <item>
-               <widget class="QTextBrowser" name="textBrowser_8"/>
+               <widget class="QTextBrowser" name="textBrowser_8">
+                <property name="maximumSize">
+                 <size>
+                  <width>174</width>
+                  <height>70</height>
+                 </size>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -567,12 +671,18 @@
                 <property name="text">
                  <string>TextLabel</string>
                 </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
                </widget>
               </item>
               <item>
                <widget class="QLabel" name="label92">
                 <property name="text">
                  <string>TextLabel</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
                 </property>
                </widget>
               </item>
@@ -581,7 +691,14 @@
             <item>
              <layout class="QVBoxLayout" name="verticalLayout_21">
               <item>
-               <widget class="QTextBrowser" name="textBrowser_9"/>
+               <widget class="QTextBrowser" name="textBrowser_9">
+                <property name="maximumSize">
+                 <size>
+                  <width>174</width>
+                  <height>70</height>
+                 </size>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -621,12 +738,18 @@
                 <property name="text">
                  <string>TextLabel</string>
                 </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
                </widget>
               </item>
               <item>
                <widget class="QLabel" name="label102">
                 <property name="text">
                  <string>TextLabel</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
                 </property>
                </widget>
               </item>
@@ -635,7 +758,14 @@
             <item>
              <layout class="QVBoxLayout" name="verticalLayout_23">
               <item>
-               <widget class="QTextBrowser" name="textBrowser_10"/>
+               <widget class="QTextBrowser" name="textBrowser_10">
+                <property name="maximumSize">
+                 <size>
+                  <width>174</width>
+                  <height>70</height>
+                 </size>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -675,12 +805,18 @@
                 <property name="text">
                  <string>TextLabel</string>
                 </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
                </widget>
               </item>
               <item>
                <widget class="QLabel" name="label112">
                 <property name="text">
                  <string>TextLabel</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
                 </property>
                </widget>
               </item>
@@ -689,7 +825,14 @@
             <item>
              <layout class="QVBoxLayout" name="verticalLayout_25">
               <item>
-               <widget class="QTextBrowser" name="textBrowser_11"/>
+               <widget class="QTextBrowser" name="textBrowser_11">
+                <property name="maximumSize">
+                 <size>
+                  <width>174</width>
+                  <height>70</height>
+                 </size>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -729,12 +872,18 @@
                 <property name="text">
                  <string>TextLabel</string>
                 </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
                </widget>
               </item>
               <item>
                <widget class="QLabel" name="label122">
                 <property name="text">
                  <string>TextLabel</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
                 </property>
                </widget>
               </item>
@@ -743,7 +892,14 @@
             <item>
              <layout class="QVBoxLayout" name="verticalLayout_27">
               <item>
-               <widget class="QTextBrowser" name="textBrowser_12"/>
+               <widget class="QTextBrowser" name="textBrowser_12">
+                <property name="maximumSize">
+                 <size>
+                  <width>174</width>
+                  <height>70</height>
+                 </size>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -796,12 +952,18 @@
                 <property name="text">
                  <string>TextLabel</string>
                 </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
                </widget>
               </item>
               <item>
                <widget class="QLabel" name="label132">
                 <property name="text">
                  <string>TextLabel</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
                 </property>
                </widget>
               </item>
@@ -810,7 +972,14 @@
             <item>
              <layout class="QVBoxLayout" name="verticalLayout_29">
               <item>
-               <widget class="QTextBrowser" name="textBrowser_13"/>
+               <widget class="QTextBrowser" name="textBrowser_13">
+                <property name="maximumSize">
+                 <size>
+                  <width>174</width>
+                  <height>70</height>
+                 </size>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -850,12 +1019,18 @@
                 <property name="text">
                  <string>TextLabel</string>
                 </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
                </widget>
               </item>
               <item>
                <widget class="QLabel" name="label142">
                 <property name="text">
                  <string>TextLabel</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
                 </property>
                </widget>
               </item>
@@ -864,7 +1039,14 @@
             <item>
              <layout class="QVBoxLayout" name="verticalLayout_31">
               <item>
-               <widget class="QTextBrowser" name="textBrowser_14"/>
+               <widget class="QTextBrowser" name="textBrowser_14">
+                <property name="maximumSize">
+                 <size>
+                  <width>174</width>
+                  <height>70</height>
+                 </size>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -904,12 +1086,18 @@
                 <property name="text">
                  <string>TextLabel</string>
                 </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
                </widget>
               </item>
               <item>
                <widget class="QLabel" name="label152">
                 <property name="text">
                  <string>TextLabel</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
                 </property>
                </widget>
               </item>
@@ -918,7 +1106,14 @@
             <item>
              <layout class="QVBoxLayout" name="verticalLayout_33">
               <item>
-               <widget class="QTextBrowser" name="textBrowser_15"/>
+               <widget class="QTextBrowser" name="textBrowser_15">
+                <property name="maximumSize">
+                 <size>
+                  <width>174</width>
+                  <height>70</height>
+                 </size>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -958,12 +1153,18 @@
                 <property name="text">
                  <string>TextLabel</string>
                 </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
                </widget>
               </item>
               <item>
                <widget class="QLabel" name="label162">
                 <property name="text">
                  <string>TextLabel</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
                 </property>
                </widget>
               </item>
@@ -972,7 +1173,14 @@
             <item>
              <layout class="QVBoxLayout" name="verticalLayout_35">
               <item>
-               <widget class="QTextBrowser" name="textBrowser_16"/>
+               <widget class="QTextBrowser" name="textBrowser_16">
+                <property name="maximumSize">
+                 <size>
+                  <width>174</width>
+                  <height>70</height>
+                 </size>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -1012,12 +1220,18 @@
                 <property name="text">
                  <string>TextLabel</string>
                 </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
                </widget>
               </item>
               <item>
                <widget class="QLabel" name="label172">
                 <property name="text">
                  <string>TextLabel</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
                 </property>
                </widget>
               </item>
@@ -1026,7 +1240,14 @@
             <item>
              <layout class="QVBoxLayout" name="verticalLayout_37">
               <item>
-               <widget class="QTextBrowser" name="textBrowser_17"/>
+               <widget class="QTextBrowser" name="textBrowser_17">
+                <property name="maximumSize">
+                 <size>
+                  <width>174</width>
+                  <height>70</height>
+                 </size>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -1083,7 +1304,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>363</width>
+     <width>362</width>
      <height>28</height>
     </rect>
    </property>

@@ -1,5 +1,5 @@
-time11 = "this is your"
-time11 = "own percious"
+time11 = "sun"
+time12 = "rise"
 
 time21 = "8：30"
 time22 = "9：15"
@@ -10,8 +10,8 @@ time42 = "11:05"
 time51 = "11:10"
 time52 = "11:55"
 
-time61 = "another"
-time62 = "precious"
+time61 = "middle"
+time62 = "noon"
 
 time71 = "14:30"
 time72 = "15：15"
