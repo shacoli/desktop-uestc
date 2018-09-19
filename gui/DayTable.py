@@ -22,7 +22,6 @@ class DayTable(QMainWindow,  Ui_DayTable):
         self.year = self.dateEdit.date().year()
 
         ####
-        print(self.label11.__dir__)
         self.label11.setText(day_time_config.time11)  
         self.label12.setText(day_time_config.time12)
         self.label21.setText(day_time_config.time21)

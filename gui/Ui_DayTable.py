@@ -13,6 +13,7 @@ class Ui_DayTable(object):
         DayTable.setObjectName("DayTable")
         DayTable.resize(362, 911)
         self.centralwidget = QtWidgets.QWidget(DayTable)
+        self.centralwidget.setMaximumSize(QtCore.QSize(362, 861))
         self.centralwidget.setObjectName("centralwidget")
         self.layoutWidget = QtWidgets.QWidget(self.centralwidget)
         self.layoutWidget.setGeometry(QtCore.QRect(10, 10, 341, 851))
