@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-5.1.dtd">
 <!-- eric project file for project uestc_pro_1 -->
-<!-- Saved: 2018-09-18, 20:12:39 -->
+<!-- Saved: 2018-09-18, 23:26:48 -->
 <!-- Copyright (C) 2018 ,  -->
 <Project version="5.1">
   <Language>en_US</Language>
@@ -16,15 +16,18 @@
     <Source>MainWindow.py</Source>
     <Source>Ui_MainWindow.py</Source>
     <Source>Ui_WeekTable.py</Source>
+    <Source>Ui_get_table_progress.py</Source>
     <Source>Ui_login.py</Source>
     <Source>WeekTable.py</Source>
     <Source>__init__.py</Source>
     <Source>config.py</Source>
+    <Source>get_table_progress.py</Source>
     <Source>login.py</Source>
   </Sources>
   <Forms>
     <Form>MainWindow.ui</Form>
     <Form>WeekTable.ui</Form>
+    <Form>get_table_progress.ui</Form>
     <Form>login.ui</Form>
   </Forms>
   <Vcs>
