@@ -2,7 +2,7 @@ import sys
 from PyQt5.QtWidgets import * 
 from PyQt5.QtGui import *
 from Ui_MainWindow import *
-from WeekTable import  *
+from DayTable import  *
 from login import *
 
 class CallMainWindow(QMainWindow, Ui_Main_Window):
@@ -14,7 +14,7 @@ class CallMainWindow(QMainWindow, Ui_Main_Window):
 		self.menu.triggered[QAction].connect(self.Login)
         
 	def ShowDayTable(self):
-		DayTable.show()
+		Day_Table.show()
 		
 	def Login(self):
 		LoginWin.show()
@@ -42,6 +42,6 @@ if __name__ == '__main__':
     app = QApplication(sys.argv)
     mainWin = CallMainWindow()
     mainWin.show()
-    DayTable = WeekTable()
+    Day_Table = DayTable()
     LoginWin = MyLogin()
     sys.exit(app.exec_())

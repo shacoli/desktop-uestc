@@ -1,15 +1,14 @@
 import sys
-import time
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import QDate
 from Ui_login import *
-from Ui_WeekTable import *
+from Ui_DayTable import *
 sys.path.append("..")
 from funcs import get_table
 
-class WeekTable(QMainWindow,  Ui_WeekTable):
+class DayTable(QMainWindow,  Ui_DayTable):
     def __init__(self,  parent=None):
-        super(WeekTable,  self).__init__(parent)
+        super(DayTable,  self).__init__(parent)
         self.setupUi(self)
         
         self.dateEdit.setDate(QDate.currentDate())
@@ -32,6 +31,6 @@ class WeekTable(QMainWindow,  Ui_WeekTable):
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    myWin = WeekTable()
+    myWin = DayTable()
     myWin.show()
     sys.exit(app.exec_())
