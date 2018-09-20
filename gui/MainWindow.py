@@ -24,23 +24,9 @@ class CallMainWindow(QMainWindow, Ui_Main_Window):
 	
 	def Login(self):
 		LoginWin.show()
+			
 
         
-class Table(QWidget):
-    
-    def __init__(self,  arg = None):
-        super(Table, self).__init__(arg)
-        self.setWindowTitle("Qtable example")
-        self.resize(500, 300)
-        self.model = QStandardItemModel(4, 4)
-        self.model.setHorizontalHeaderLabels(['1', '2', '3', '4'])
-        
-        self.tableView = QTableView()
-        self.tableView.setModel(self.model)
-        
-        dlgLayout = QVBoxLayout();
-        dlgLayout.addWidget(self.tableView)
-        self.setLayout(dlgLayout)
 
 
 

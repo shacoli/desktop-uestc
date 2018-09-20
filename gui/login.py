@@ -15,23 +15,27 @@ class MyLogin(QMainWindow,  Ui_LoginWindow):
         
         self.error_label.setText("")
         
-        self.loginButton.clicked.connect(self.Login)
+        self.loginButton.clicked.connect(self.Login_Test)
         self.touristButton.clicked.connect(self.TourLogin)
         
-    def Login(self):
+        self.login_success_win = LoginSuccess()
+        #self.myWin = MyLogin()
+		
+    def Login_Test(self):
         a = self.LoginAccount.text()
         b = self.LoginPassword.text()
+        
         if(login_test(a, b) == True):
             #print("登陆成功！！")
-            login_success_win.show()
-            myWin.close()
+            
+            self.login_success_win.show()
+            self.close()
         else:
             self.error_label.setText("用户名或密码错误！")
-        #MainWin.show()
         #myWin.close()
+        #self.close()
             
     def TourLogin(self):
-        #MainWin.show()
         myWin.close()
             
         
