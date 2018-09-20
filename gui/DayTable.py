@@ -14,6 +14,8 @@ class DayTable(QMainWindow,  Ui_DayTable):
         
         self.dateEdit.setDate(QDate.currentDate())
         
+        #self.pushButton.mouseDoubleClickEvent(self.pushButton.setText("123"))
+        
         self.broadcast_label.setText("")
         self.switch_button.clicked.connect(self.get_day_table)
         self.rescrap_button.clicked.connect(self.get_table_again)

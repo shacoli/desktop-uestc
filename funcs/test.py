@@ -1,5 +1,8 @@
 import sys
 sys.path.append("..")
-from funcs import get_table
+from configs import day_time_config
 
-print(get_table.write_in_my_table(2017030102012, "402561"))
+day_time_config.time11 = "sun2"
+
+print(day_time_config.time11)
+

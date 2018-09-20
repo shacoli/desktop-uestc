@@ -1,8 +1,8 @@
 import sys
-import config
 from PyQt5.QtWidgets import *
 from Ui_login import *
 from MainWindow import *
+from login_success import *
 sys.path.append("..")
 from funcs.login_test import *
 #from PyQt5 import QtCore, QtGui, QtWidgets
@@ -13,6 +13,7 @@ class MyLogin(QMainWindow,  Ui_LoginWindow):
         super(MyLogin,  self).__init__(parent)
         self.setupUi(self)
         
+        self.error_label.setText("")
         
         self.loginButton.clicked.connect(self.Login)
         self.touristButton.clicked.connect(self.TourLogin)
@@ -21,11 +22,13 @@ class MyLogin(QMainWindow,  Ui_LoginWindow):
         a = self.LoginAccount.text()
         b = self.LoginPassword.text()
         if(login_test(a, b) == True):
-            print("登陆成功！！")
+            #print("登陆成功！！")
+            login_success_win.show()
+            myWin.close()
         else:
-            pass
+            self.error_label.setText("用户名或密码错误！")
         #MainWin.show()
-        myWin.close()
+        #myWin.close()
             
     def TourLogin(self):
         #MainWin.show()
@@ -36,4 +39,5 @@ if __name__ == '__main__':
     app = QApplication(sys.argv)
     myWin = MyLogin()
     myWin.show()
+    login_success_win = LoginSuccess()
     sys.exit(app.exec_())

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'E:\小汇总\eric_project\uestc_pro_1\login.ui'
+# Form implementation generated from reading ui file '/home/shacoli/open-project/desktop-uestc/gui/login.ui'
 #
 # Created by: PyQt5 UI code generator 5.11.2
 #
@@ -34,19 +34,19 @@ class Ui_LoginWindow(object):
         self.verticalLayout_3.setObjectName("verticalLayout_3")
         self.verticalLayout = QtWidgets.QVBoxLayout()
         self.verticalLayout.setObjectName("verticalLayout")
-        self.label = QtWidgets.QLabel(self.layoutWidget)
+        self.LoginAccount_Lable = QtWidgets.QLabel(self.layoutWidget)
         font = QtGui.QFont()
         font.setPointSize(14)
-        self.label.setFont(font)
-        self.label.setObjectName("label")
-        self.verticalLayout.addWidget(self.label)
+        self.LoginAccount_Lable.setFont(font)
+        self.LoginAccount_Lable.setObjectName("LoginAccount_Lable")
+        self.verticalLayout.addWidget(self.LoginAccount_Lable)
         self.verticalLayout_3.addLayout(self.verticalLayout)
-        self.label_2 = QtWidgets.QLabel(self.layoutWidget)
+        self.LoginPassword_Label = QtWidgets.QLabel(self.layoutWidget)
         font = QtGui.QFont()
         font.setPointSize(14)
-        self.label_2.setFont(font)
-        self.label_2.setObjectName("label_2")
-        self.verticalLayout_3.addWidget(self.label_2)
+        self.LoginPassword_Label.setFont(font)
+        self.LoginPassword_Label.setObjectName("LoginPassword_Label")
+        self.verticalLayout_3.addWidget(self.LoginPassword_Label)
         self.horizontalLayout.addLayout(self.verticalLayout_3)
         self.verticalLayout_2 = QtWidgets.QVBoxLayout()
         self.verticalLayout_2.setObjectName("verticalLayout_2")
@@ -69,11 +69,15 @@ class Ui_LoginWindow(object):
         self.touristButton = QtWidgets.QPushButton(self.layoutWidget1)
         self.touristButton.setObjectName("touristButton")
         self.verticalLayout_4.addWidget(self.touristButton)
+        self.error_label = QtWidgets.QLabel(self.centralwidget)
+        self.error_label.setGeometry(QtCore.QRect(206, 220, 191, 20))
+        self.error_label.setObjectName("error_label")
         self.splitter.raise_()
         self.graphicsView.raise_()
+        self.error_label.raise_()
         LoginWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(LoginWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 480, 23))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 480, 30))
         self.menubar.setObjectName("menubar")
         self.menu_S = QtWidgets.QMenu(self.menubar)
         self.menu_S.setObjectName("menu_S")
@@ -100,10 +104,11 @@ class Ui_LoginWindow(object):
     def retranslateUi(self, LoginWindow):
         _translate = QtCore.QCoreApplication.translate
         LoginWindow.setWindowTitle(_translate("LoginWindow", "MainWindow"))
-        self.label.setText(_translate("LoginWindow", "学号"))
-        self.label_2.setText(_translate("LoginWindow", "密码"))
+        self.LoginAccount_Lable.setText(_translate("LoginWindow", "学号"))
+        self.LoginPassword_Label.setText(_translate("LoginWindow", "密码"))
         self.loginButton.setText(_translate("LoginWindow", "连接"))
         self.touristButton.setText(_translate("LoginWindow", "游客模式"))
+        self.error_label.setText(_translate("LoginWindow", "TextLabel"))
         self.menu_S.setTitle(_translate("LoginWindow", "支持(S)"))
         self.menu_T.setTitle(_translate("LoginWindow", "工具(T)"))
         self.menu_F.setTitle(_translate("LoginWindow", "文件(&F)"))
