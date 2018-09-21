@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>362</width>
+    <width>365</width>
     <height>911</height>
    </rect>
   </property>
@@ -130,7 +130,7 @@
              <x>10</x>
              <y>10</y>
              <width>301</width>
-             <height>74</height>
+             <height>81</height>
             </rect>
            </property>
            <layout class="QHBoxLayout" name="horizontalLayout_3">
@@ -165,7 +165,7 @@
                 <property name="maximumSize">
                  <size>
                   <width>174</width>
-                  <height>70</height>
+                  <height>80</height>
                  </size>
                 </property>
                </widget>
@@ -197,7 +197,7 @@
              <x>10</x>
              <y>100</y>
              <width>301</width>
-             <height>74</height>
+             <height>81</height>
             </rect>
            </property>
            <layout class="QHBoxLayout" name="horizontalLayout_5">
@@ -232,7 +232,7 @@
                 <property name="maximumSize">
                  <size>
                   <width>174</width>
-                  <height>70</height>
+                  <height>80</height>
                  </size>
                 </property>
                </widget>
@@ -264,7 +264,7 @@
              <x>10</x>
              <y>190</y>
              <width>301</width>
-             <height>74</height>
+             <height>81</height>
             </rect>
            </property>
            <layout class="QHBoxLayout" name="horizontalLayout_7">
@@ -299,7 +299,7 @@
                 <property name="maximumSize">
                  <size>
                   <width>174</width>
-                  <height>70</height>
+                  <height>80</height>
                  </size>
                 </property>
                </widget>
@@ -331,7 +331,7 @@
              <x>10</x>
              <y>280</y>
              <width>301</width>
-             <height>74</height>
+             <height>81</height>
             </rect>
            </property>
            <layout class="QHBoxLayout" name="horizontalLayout_9">
@@ -366,7 +366,7 @@
                 <property name="maximumSize">
                  <size>
                   <width>174</width>
-                  <height>70</height>
+                  <height>80</height>
                  </size>
                 </property>
                </widget>
@@ -398,7 +398,7 @@
              <x>10</x>
              <y>370</y>
              <width>301</width>
-             <height>74</height>
+             <height>81</height>
             </rect>
            </property>
            <layout class="QHBoxLayout" name="horizontalLayout_11">
@@ -433,7 +433,7 @@
                 <property name="maximumSize">
                  <size>
                   <width>174</width>
-                  <height>70</height>
+                  <height>80</height>
                  </size>
                 </property>
                </widget>
@@ -465,7 +465,7 @@
              <x>10</x>
              <y>460</y>
              <width>301</width>
-             <height>74</height>
+             <height>81</height>
             </rect>
            </property>
            <layout class="QHBoxLayout" name="horizontalLayout_13">
@@ -500,7 +500,7 @@
                 <property name="maximumSize">
                  <size>
                   <width>174</width>
-                  <height>70</height>
+                  <height>80</height>
                  </size>
                 </property>
                </widget>
@@ -532,7 +532,7 @@
              <x>10</x>
              <y>550</y>
              <width>301</width>
-             <height>74</height>
+             <height>81</height>
             </rect>
            </property>
            <layout class="QHBoxLayout" name="horizontalLayout_15">
@@ -567,7 +567,7 @@
                 <property name="maximumSize">
                  <size>
                   <width>174</width>
-                  <height>70</height>
+                  <height>80</height>
                  </size>
                 </property>
                </widget>
@@ -599,7 +599,7 @@
              <x>10</x>
              <y>640</y>
              <width>301</width>
-             <height>74</height>
+             <height>81</height>
             </rect>
            </property>
            <layout class="QHBoxLayout" name="horizontalLayout_17">
@@ -634,7 +634,7 @@
                 <property name="maximumSize">
                  <size>
                   <width>174</width>
-                  <height>70</height>
+                  <height>80</height>
                  </size>
                 </property>
                </widget>
@@ -666,7 +666,7 @@
              <x>10</x>
              <y>730</y>
              <width>301</width>
-             <height>74</height>
+             <height>81</height>
             </rect>
            </property>
            <layout class="QHBoxLayout" name="horizontalLayout_19">
@@ -701,7 +701,7 @@
                 <property name="maximumSize">
                  <size>
                   <width>174</width>
-                  <height>70</height>
+                  <height>80</height>
                  </size>
                 </property>
                </widget>
@@ -733,7 +733,7 @@
              <x>10</x>
              <y>820</y>
              <width>301</width>
-             <height>74</height>
+             <height>81</height>
             </rect>
            </property>
            <layout class="QHBoxLayout" name="horizontalLayout_21">
@@ -768,7 +768,7 @@
                 <property name="maximumSize">
                  <size>
                   <width>174</width>
-                  <height>70</height>
+                  <height>80</height>
                  </size>
                 </property>
                </widget>
@@ -800,7 +800,7 @@
              <x>10</x>
              <y>910</y>
              <width>301</width>
-             <height>74</height>
+             <height>81</height>
             </rect>
            </property>
            <layout class="QHBoxLayout" name="horizontalLayout_23">
@@ -835,7 +835,7 @@
                 <property name="maximumSize">
                  <size>
                   <width>174</width>
-                  <height>70</height>
+                  <height>80</height>
                  </size>
                 </property>
                </widget>
@@ -867,7 +867,7 @@
              <x>10</x>
              <y>1000</y>
              <width>301</width>
-             <height>74</height>
+             <height>81</height>
             </rect>
            </property>
            <layout class="QHBoxLayout" name="horizontalLayout_25">
@@ -902,7 +902,7 @@
                 <property name="maximumSize">
                  <size>
                   <width>174</width>
-                  <height>70</height>
+                  <height>80</height>
                  </size>
                 </property>
                </widget>
@@ -947,7 +947,7 @@
              <x>10</x>
              <y>1090</y>
              <width>301</width>
-             <height>74</height>
+             <height>81</height>
             </rect>
            </property>
            <layout class="QHBoxLayout" name="horizontalLayout_27">
@@ -982,7 +982,7 @@
                 <property name="maximumSize">
                  <size>
                   <width>174</width>
-                  <height>70</height>
+                  <height>80</height>
                  </size>
                 </property>
                </widget>
@@ -1014,7 +1014,7 @@
              <x>10</x>
              <y>1180</y>
              <width>301</width>
-             <height>74</height>
+             <height>81</height>
             </rect>
            </property>
            <layout class="QHBoxLayout" name="horizontalLayout_29">
@@ -1049,7 +1049,7 @@
                 <property name="maximumSize">
                  <size>
                   <width>174</width>
-                  <height>70</height>
+                  <height>80</height>
                  </size>
                 </property>
                </widget>
@@ -1081,7 +1081,7 @@
              <x>10</x>
              <y>1270</y>
              <width>301</width>
-             <height>74</height>
+             <height>81</height>
             </rect>
            </property>
            <layout class="QHBoxLayout" name="horizontalLayout_31">
@@ -1116,7 +1116,7 @@
                 <property name="maximumSize">
                  <size>
                   <width>174</width>
-                  <height>70</height>
+                  <height>80</height>
                  </size>
                 </property>
                </widget>
@@ -1148,7 +1148,7 @@
              <x>10</x>
              <y>1360</y>
              <width>301</width>
-             <height>74</height>
+             <height>81</height>
             </rect>
            </property>
            <layout class="QHBoxLayout" name="horizontalLayout_33">
@@ -1183,7 +1183,7 @@
                 <property name="maximumSize">
                  <size>
                   <width>174</width>
-                  <height>70</height>
+                  <height>80</height>
                  </size>
                 </property>
                </widget>
@@ -1215,7 +1215,7 @@
              <x>10</x>
              <y>1450</y>
              <width>301</width>
-             <height>74</height>
+             <height>81</height>
             </rect>
            </property>
            <layout class="QHBoxLayout" name="horizontalLayout_35">
@@ -1250,7 +1250,7 @@
                 <property name="maximumSize">
                  <size>
                   <width>174</width>
-                  <height>70</height>
+                  <height>80</height>
                  </size>
                 </property>
                </widget>
@@ -1310,7 +1310,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>362</width>
+     <width>365</width>
      <height>28</height>
     </rect>
    </property>

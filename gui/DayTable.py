@@ -76,14 +76,14 @@ class DayTable(QMainWindow,  Ui_DayTable):
         for i in range(len(textBrowserList)):
             print(todays_day)
             #print(my_table.mytable[i][2])
-            if my_table.mytable[i][todays_day-5] == 0:  
+            if my_table.mytable[i][todays_day-1] == 0:  
                 textBrowserList[i].setText("you're free")
             else:
-                teachers_name = my_table.mytable[i][todays_day-5][0]
-                class_name = my_table.mytable[i][todays_day-5][1]
-                class_place = my_table.mytable[i][todays_day-5][2]
+                teachers_name = my_table.mytable[i][todays_day-1][0]
+                class_name = my_table.mytable[i][todays_day-1][1]
+                class_place = my_table.mytable[i][todays_day-1][2]
 
-                textBrowserList[i].setText("%s\r%s\r%s"%(teachers_name, class_name, class_place))
+                textBrowserList[i].setText("%s\r%s\r%s"%(str(teachers_name), str(class_name), str(class_place)))
         ####
     def get_day_table(self):
         #self.scrollAreaWidgetContents.setMinimumHeight(1800)
