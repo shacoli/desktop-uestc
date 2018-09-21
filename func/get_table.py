@@ -107,7 +107,7 @@ def write_in_my_table(account, password):
         #for i in range(table_counts):
             #f.write("class" + "%d =" %(i+1))
             #f.write(str(full_table_list[i]) + "\r")
-        f.write("full_table=" + str(a))
+        f.write("mytable =" + str(a))
     return timing
 
 if __name__ == "__main__":

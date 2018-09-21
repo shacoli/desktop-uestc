@@ -7,6 +7,7 @@ from Ui_DayTable import *
 sys.path.append("..")
 from func import get_table
 from config import day_time_config
+from data import my_table
 
 class DayTable(QMainWindow,  Ui_DayTable):
     def __init__(self,  parent=None):
@@ -28,7 +29,7 @@ class DayTable(QMainWindow,  Ui_DayTable):
         today_date = datetime.date(year, month, day)
         todays_week = today_date.__sub__(school_begin_week).days % 7 - 1
         todays_day = today_date.__sub__(school_begin_week).days % 7 + 1
-        #print(todays_week,todays_day)
+        print(todays_week,todays_day)
 
         ####
         self.label11.setText(day_time_config.time11)  
@@ -65,6 +66,24 @@ class DayTable(QMainWindow,  Ui_DayTable):
         self.label162.setText(day_time_config.time162)
         self.label171.setText(day_time_config.time171)
         self.label172.setText(day_time_config.time172)
+
+        textBrowserList = [self.textBrowser_2,self.textBrowser_3,
+        self.textBrowser_4,self.textBrowser_5,
+        self.textBrowser_7,self.textBrowser_8,
+        self.textBrowser_9,self.textBrowser_10,
+        self.textBrowser_12,self.textBrowser_13,
+        self.textBrowser_14,self.textBrowser_15]
+        for i in range(len(textBrowserList)):
+            print(todays_day)
+            #print(my_table.mytable[i][2])
+            if my_table.mytable[i][todays_day-5] == 0:  
+                textBrowserList[i].setText("you're free")
+            else:
+                teachers_name = my_table.mytable[i][todays_day-5][0]
+                class_name = my_table.mytable[i][todays_day-5][1]
+                class_place = my_table.mytable[i][todays_day-5][2]
+
+                textBrowserList[i].setText("%s\r%s\r%s"%(teachers_name, class_name, class_place))
         ####
     def get_day_table(self):
         #self.scrollAreaWidgetContents.setMinimumHeight(1800)

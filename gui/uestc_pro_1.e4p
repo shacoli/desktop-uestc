@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-5.1.dtd">
 <!-- eric project file for project uestc_pro_1 -->
-<!-- Saved: 2018-09-21, 21:46:00 -->
+<!-- Saved: 2018-09-22, 00:46:45 -->
 <!-- Copyright (C) 2018 ,  -->
 <Project version="5.1">
   <Language>en_US</Language>
@@ -24,7 +24,6 @@
     <Source>Ui_WeekTable.py</Source>
     <Source>WeekTable.py</Source>
     <Source>__init__.py</Source>
-    <Source>config.py</Source>
   </Sources>
   <Forms>
     <Form>DayTable.ui</Form>
