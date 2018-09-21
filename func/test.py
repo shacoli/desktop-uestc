@@ -1,8 +1,8 @@
 import sys
+import time
+import datetime
 sys.path.append("..")
-from configs import day_time_config
 
-day_time_config.time11 = "sun2"
-
-print(day_time_config.time11)
-
+time1 = datetime.date(2017, 12, 20)
+time2 = datetime.date(2017, 11, 2)
+print(time1 - time2)

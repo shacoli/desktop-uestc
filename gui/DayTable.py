@@ -1,4 +1,5 @@
 import sys
+import datetime
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import QDate
 from Ui_Login import *
@@ -19,9 +20,15 @@ class DayTable(QMainWindow,  Ui_DayTable):
         self.broadcast_label.setText("")
         self.switch_button.clicked.connect(self.get_day_table)
         self.rescrap_button.clicked.connect(self.get_table_again)
-        self.day = self.dateEdit.date().day()
-        self.month = self.dateEdit.date().month()
-        self.year = self.dateEdit.date().year()
+        day = self.dateEdit.date().day()
+        month = self.dateEdit.date().month()
+        year = self.dateEdit.date().year()
+
+        school_begin_week = datetime.date(2018, 9, 3)
+        today_date = datetime.date(year, month, day)
+        todays_week = today_date.__sub__(school_begin_week).days % 7 - 1
+        todays_day = today_date.__sub__(school_begin_week).days % 7 + 1
+        #print(todays_week,todays_day)
 
         ####
         self.label11.setText(day_time_config.time11)  
