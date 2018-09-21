@@ -82,9 +82,32 @@ def Search_The_Table(account, password):
     return (class_info_1_process_2,time.time()-c)
 
 def write_in_my_table(account, password):
-    with open('../datas/my_table.py', 'w+') as f:
-        full_table_list , timing = Search_The_Table(account, password)
-        f.write("full_table=" + str(full_table_list))
+    full_table_list , timing = Search_The_Table(account, password)
+    a = [[0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0]
+        ]
+    for i in full_table_list:
+        for j in i[5]:
+            a[(j[1])][(j[0])] = i[0:5]
+    print(a)
+
+    with open('../data/my_table.py', 'w+') as f:
+        
+        #table_counts = len(full_table_list) 
+        #for i in range(table_counts):
+            #f.write("class" + "%d =" %(i+1))
+            #f.write(str(full_table_list[i]) + "\r")
+        f.write("full_table=" + str(a))
     return timing
 
 if __name__ == "__main__":
