@@ -3,7 +3,7 @@ from PyQt5.QtWidgets import *
 from Ui_WeekTable import *
 from MainWindow import *
 sys.path.append("..")
-from funcs.login_test import *
+from func.login_test import *
 #from PyQt5 import QtCore, QtGui, QtWidgets
 
 

@@ -4,12 +4,12 @@ from PyQt5.QtGui import *
 from Ui_MainWindow import *
 from DayTable import  *
 from WeekTable import *
-from login_success import *
-from login import *
+from LoginSuccess import *
+from Login import *
 
-class CallMainWindow(QMainWindow, Ui_Main_Window):
+class MainWindow(QMainWindow, Ui_MainWindow):
 	def __init__(self, parent = None):
-		super(CallMainWindow, self).__init__(parent)
+		super(MainWindow, self).__init__(parent)
 		self.setupUi(self)
 		self.dayTable.setText("日课程表")
 		self.dayTable.clicked.connect(self.ShowDayTable)
@@ -32,10 +32,10 @@ class CallMainWindow(QMainWindow, Ui_Main_Window):
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    mainWin = CallMainWindow()
+    mainWin = MainWindow()
     mainWin.show()
     Day_Table = DayTable()
     Week_Table = WeekTable()
-    LoginWin = MyLogin()
+    LoginWin = Login()
     login_success_win = LoginSuccess()
     sys.exit(app.exec_())

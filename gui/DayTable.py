@@ -1,11 +1,11 @@
 import sys
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import QDate
-from Ui_login import *
+from Ui_Login import *
 from Ui_DayTable import *
 sys.path.append("..")
-from funcs import get_table
-from configs import day_time_config
+from func import get_table
+from config import day_time_config
 
 class DayTable(QMainWindow,  Ui_DayTable):
     def __init__(self,  parent=None):

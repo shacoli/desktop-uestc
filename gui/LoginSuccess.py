@@ -1,6 +1,6 @@
 import sys
 from PyQt5.QtWidgets import *
-from Ui_login_success import *
+from Ui_LoginSuccess import *
 #from PyQt5 import QtCore, QtGui, QtWidgets
 
 
