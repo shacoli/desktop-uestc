@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-5.1.dtd">
 <!-- eric project file for project uestc_pro_1 -->
-<!-- Saved: 2018-09-22, 00:46:45 -->
+<!-- Saved: 2018-09-22, 18:12:35 -->
 <!-- Copyright (C) 2018 ,  -->
 <Project version="5.1">
   <Language>en_US</Language>
@@ -26,6 +26,7 @@
     <Source>__init__.py</Source>
   </Sources>
   <Forms>
+    <Form>BlockEditor.ui</Form>
     <Form>DayTable.ui</Form>
     <Form>Login.ui</Form>
     <Form>LoginSuccess.ui</Form>
