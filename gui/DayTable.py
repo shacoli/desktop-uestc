@@ -19,17 +19,17 @@ class DayTable(QMainWindow,  Ui_DayTable):
         #self.pushButton.mouseDoubleClickEvent(self.pushButton.setText("123"))
         
         self.broadcast_label.setText("")
-        self.switch_button.clicked.connect(self.get_day_table)
+        self.switch_button.clicked.connect(lambda:self.get_day_table(textBrowserList, self.todays_day))
         self.rescrap_button.clicked.connect(self.get_table_again)
-        day = self.dateEdit.date().day()
-        month = self.dateEdit.date().month()
-        year = self.dateEdit.date().year()
-
+        
+        self.day = self.dateEdit.date().day()
+        self.month = self.dateEdit.date().month()
+        self.year = self.dateEdit.date().year()
         school_begin_week = datetime.date(2018, 9, 3)
-        today_date = datetime.date(year, month, day)
-        todays_week = today_date.__sub__(school_begin_week).days % 7 - 1
-        todays_day = today_date.__sub__(school_begin_week).days % 7 + 1
-        print(todays_week,todays_day)
+        self.today_date = datetime.date(self.year, self.month, self.day)
+        self.todays_week = self.today_date.__sub__(school_begin_week).days % 7 - 1
+        self.todays_day = self.today_date.__sub__(school_begin_week).days % 7 + 1
+        print(self.todays_week,self.todays_day)
 
         ####
         self.label11.setText(day_time_config.time11)  
@@ -73,6 +73,19 @@ class DayTable(QMainWindow,  Ui_DayTable):
         self.textBrowser_9,self.textBrowser_10,
         self.textBrowser_12,self.textBrowser_13,
         self.textBrowser_14,self.textBrowser_15]
+        
+        self.get_day_table(textBrowserList, self.todays_day)
+        
+        ####
+    def get_day_table(self,textBrowserList, todays_day):
+        self.day = self.dateEdit.date().day()
+        self.month = self.dateEdit.date().month()
+        self.year = self.dateEdit.date().year()
+
+        school_begin_week = datetime.date(2018, 9, 3)
+        self.today_date = datetime.date(self.year, self.month, self.day)
+        self.todays_week = self.today_date.__sub__(school_begin_week).days % 7 - 1
+        self.todays_day = self.today_date.__sub__(school_begin_week).days % 7 + 1
         for i in range(len(textBrowserList)):
             print(todays_day)
             #print(my_table.mytable[i][2])
@@ -84,10 +97,7 @@ class DayTable(QMainWindow,  Ui_DayTable):
                 class_place = my_table.mytable[i][todays_day-1][2]
 
                 textBrowserList[i].setText("%s\r%s\r%s"%(str(teachers_name), str(class_name), str(class_place)))
-        ####
-    def get_day_table(self):
-        #self.scrollAreaWidgetContents.setMinimumHeight(1800)
-        pass
+        return 0
     
     def get_table_again(self):
         self.broadcast_label.setText("重新抓取用时为 %1.5f" %float(get_table.write_in_my_table(2017030102012, "402561")))

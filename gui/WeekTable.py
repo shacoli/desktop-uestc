@@ -1,5 +1,7 @@
 import sys
 from PyQt5.QtWidgets import *
+from PyQt5.QtGui import *
+from PyQt5.QtCore import *
 from Ui_WeekTable import *
 from MainWindow import *
 sys.path.append("..")
@@ -12,8 +14,6 @@ class WeekTable(QMainWindow,  Ui_WeekTable):
         super(WeekTable,  self).__init__(parent)
         self.setupUi(self)
         
-        self.weektableview.HeaderList = ["类型"]
-        #self.weektableview.setRowCount(2)
 
 
 if __name__ == '__main__':
