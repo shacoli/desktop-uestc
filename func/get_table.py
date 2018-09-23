@@ -9,6 +9,10 @@ from bs4 import BeautifulSoup
 import requests
 import re
 import time
+import sys
+import importlib
+importlib.reload(sys)
+
 
 def Search_The_Table(account, password):
     c = time.time()
@@ -99,15 +103,15 @@ def write_in_my_table(account, password):
     for i in full_table_list:
         for j in i[5]:
             a[(j[1])][(j[0])] = i[0:5]
-    print(a)
+    #print(a)
 
-    with open('../data/my_table.py', 'w+') as f:
+    with open('../data/my_table.py', 'w+', encoding='utf-8') as f:
         
         #table_counts = len(full_table_list) 
         #for i in range(table_counts):
             #f.write("class" + "%d =" %(i+1))
             #f.write(str(full_table_list[i]) + "\r")
-        f.write("mytable =" + str(a))
+        f.write(str("mytable =" + str(a)))
     return timing
 
 if __name__ == "__main__":
